@@ -1,8 +1,11 @@
 const DOMselectors = {
-    button1: document.getElementById("button1"),
-    button2: document.getElementById("button2"),
-    dealer: document.getElementById("dealer"),
-    player: document.getElementById("player"),
-  };
-  
-  export { DOMselectors };
+  Hit: document.getElementById("Hit"),
+  Stay: document.getElementById("Stay"),
+  dealer: document.getElementById("dealer"),
+  player: document.getElementById("player"),
+  btn: document.getElementById("buttonholder"),
+  btns: document.getElementById("buttonholders"),
+  next: document.getElementById("Next"),
+};
+
+export { DOMselectors };

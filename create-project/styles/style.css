@@ -19,7 +19,7 @@ body,
 }
 
 body{
-  background-color: cyan;
+  background-color: cadetblue;
 }
 
 .buttonholder {
@@ -83,7 +83,26 @@ body{
 }
 
 .words{
-  margin: 20px;
+  margin: 35px;
   background-color: rgb(123, 5, 7);
   border-radius: 10px;
+}
+
+.results{
+  font-size: 100px;
+  margin-left: 40px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonholders {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  margin: 2%;
+  
 }
